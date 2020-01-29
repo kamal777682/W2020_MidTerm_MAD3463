@@ -15,7 +15,7 @@ public class LambtonStringTools
     public static String reverse(String s)
     {
 
-        return null;
+        
     }
     
     //2 - FORMAT INITIALS OF STRING
