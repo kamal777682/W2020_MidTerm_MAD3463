@@ -23,12 +23,15 @@ public class LambtonStringTools
         ArrayList<String> s1 = new ArrayList<>() ;
         s1.add(s);
         s.compareTo(s);
+        for(i= 0, j<length;i<length;i++,j--)
+        {
+            String temp = new String;
+            temp = s;
+            String s[i]= String s[j];
+            String s[j]= String s[i];
 
-
-
-
-
-        return s;
+        }
+       return s;
 
     }
 
@@ -74,12 +77,14 @@ public class LambtonStringTools
         {
             if ( s.length()==0)
                 System.out.println("NO value exist");
-            else
-            {
+            else {
                 s.compareTo(f);
-                if(s==f)
-                    replaceSubString(s,f,n);
-           }
+                if (s == f)
+               {
+                    char t = ch[];
+                    fc[]=c[];
+                    ch[]= t[];
+            }
 
         }
         n = c.toString();
