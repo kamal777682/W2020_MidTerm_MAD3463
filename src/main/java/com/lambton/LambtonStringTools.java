@@ -26,8 +26,8 @@ public class LambtonStringTools
             rev_s[i] = rev_s[j];
             rev_s[j] = rev_s[i];
         }
-        rev_s.toString();
-        return (rev_s);
+
+        return (s);
 
     }
 
