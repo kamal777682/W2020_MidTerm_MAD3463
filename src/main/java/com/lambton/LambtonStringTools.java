@@ -22,13 +22,13 @@ public class LambtonStringTools
         int i,j;
         ArrayList<String> s1 = new ArrayList<>() ;
         s1.add(s);
-        s.compareTo(s1);
+        s.compareTo(s);
 
 
 
 
 
-        return s1;
+        return s;
 
     }
 
@@ -52,7 +52,11 @@ public class LambtonStringTools
     //4 - CONVERT BINARY NUMBER TO DECIMALS
     public static int binaryToDecimal(String s) 
     {
-       return(s);
+        String s1 = new String();
+        s1.toCharArray();
+        System.out.println(s1);
+        String.valueOf(s1);
+       return s1;
     }
      
     //5 - REPLACING SUBSTRING WITH NEW STRING IN EXISTING STRING
