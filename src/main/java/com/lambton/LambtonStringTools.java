@@ -71,7 +71,7 @@ public class LambtonStringTools
 
          {
             if (s.length() == 0)
-                System.out.println("NO value exist");
+               
             else
                 s.co
         }
