@@ -5,6 +5,8 @@
  */
 package com.lambton;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author Pritesh Patel
@@ -18,13 +20,15 @@ public class LambtonStringTools
         rev_s = s.toCharArray();
         int length = s.length();
         int i,j;
-        for( i= 0 , j= length; j<length-1;j++)
-        {
-            
-        }
+        ArrayList<String> s1 = new ArrayList<>() ;
+        s1.add(s);
+        s.compareTo(s1);
 
 
-        return null;
+
+
+
+        return s1;
 
     }
 
@@ -36,7 +40,7 @@ public class LambtonStringTools
     public static String initials(String s) 
     {
 
-        return null;
+
     }
         
     //3 - FIND MOST FREQUENT CHARACTER FROM STRING
@@ -48,7 +52,7 @@ public class LambtonStringTools
     //4 - CONVERT BINARY NUMBER TO DECIMALS
     public static int binaryToDecimal(String s) 
     {
-       return 0;
+       return(s);
     }
      
     //5 - REPLACING SUBSTRING WITH NEW STRING IN EXISTING STRING
@@ -66,11 +70,9 @@ public class LambtonStringTools
                 System.out.println("NO value exist");
             else
             {
-
-                while(ch == fc) {
-                    fc = c;
-                }
-                n = c.toString();
+                s.compareTo(fc);
+                if(s==f)
+                    replaceSubString(fc,c);
            }
 
         }
