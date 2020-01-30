@@ -24,8 +24,8 @@ public class LambtonStringTools
         {
             String temp = new String();
             temp = s;
-            String s[i]= String s[j];
-            String s[j]= String s[i];
+            String rev_s [i]= String rev_s[j];
+            String rev_s [j]= String rev_s[i];
 
 
        return s;
