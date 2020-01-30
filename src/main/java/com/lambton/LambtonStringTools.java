@@ -68,13 +68,7 @@ public class LambtonStringTools
         String n = newString;
         char ch[] = s.toCharArray();
         char c[]= n.toCharArray();
-        for( i= 0 , j= length; j<length-1;j++)
-        {
-            public void replace( String s)
-            {
-                System.out.println(s);
-            }
-        }
+       
         for ( int i= 0; i< s.length();i++) {
             if (s.length() == 0)
                 System.out.println("NO value exist");
