@@ -48,8 +48,6 @@ public class LambtonStringTools
     public static String mostFrequent(String s) 
     {
         String f = new String(s);
-        char c = f.toCharArray();
-        f.compareTo(c);
     }
     
     //4 - CONVERT BINARY NUMBER TO DECIMALS
