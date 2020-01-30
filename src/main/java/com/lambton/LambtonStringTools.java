@@ -40,6 +40,8 @@ public class LambtonStringTools
     public static String initials(String s) 
     {
 
+        String name = new String(s);
+        return(name.toUpperCase());
 
     }
         
@@ -50,13 +52,13 @@ public class LambtonStringTools
     }
     
     //4 - CONVERT BINARY NUMBER TO DECIMALS
-    public static int binaryToDecimal(String s) 
+    public static int binaryToDecimal(String s)
     {
         String s1 = new String();
         s1.toCharArray();
         System.out.println(s1);
-        String.valueOf(s1);
-       return s1;
+
+        return 0;
     }
      
     //5 - REPLACING SUBSTRING WITH NEW STRING IN EXISTING STRING
@@ -74,9 +76,9 @@ public class LambtonStringTools
                 System.out.println("NO value exist");
             else
             {
-                s.compareTo(fc);
+                s.compareTo(f);
                 if(s==f)
-                    replaceSubString(fc,c);
+                    replaceSubString(s,f,n);
            }
 
         }
@@ -84,3 +86,4 @@ public class LambtonStringTools
         return(n);
    }
 }
+
