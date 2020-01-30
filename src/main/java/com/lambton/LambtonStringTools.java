@@ -70,7 +70,7 @@ public class LambtonStringTools
         char c[]= n.toCharArray();
         char fc[]= f.toCharArray();
         for ( int i= 0; i< s.length();i++) {
-            if (s.length() == 0)
+            if (s.length() == 1)
                 System.out.println("NO value exist");
             else
                 s.compareTo(f);
