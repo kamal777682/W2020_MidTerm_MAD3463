@@ -47,7 +47,9 @@ public class LambtonStringTools
     //3 - FIND MOST FREQUENT CHARACTER FROM STRING
     public static String mostFrequent(String s) 
     {
-        return null;
+        String f = new String(s);
+        char c = f.toCharArray();
+        f.compareTo(c);
     }
     
     //4 - CONVERT BINARY NUMBER TO DECIMALS
