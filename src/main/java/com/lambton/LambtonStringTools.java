@@ -14,9 +14,23 @@ public class LambtonStringTools
     //1 - REVERSE STRING
     public static String reverse(String s)
     {
+        char [] rev_s = new char[s.length()];
+        rev_s = s.toCharArray();
+        int length = s.length();
+        int i,j;
+        for( i= 0 , j= length; j<length-1;j++)
+        {
+            
+        }
 
-        
+
+        return null;
+
     }
+
+
+
+
     
     //2 - FORMAT INITIALS OF STRING
     public static String initials(String s) 
@@ -40,6 +54,27 @@ public class LambtonStringTools
     //5 - REPLACING SUBSTRING WITH NEW STRING IN EXISTING STRING
     public static String replaceSubString(String originalString, String findString, String newString) 
     {
-        return null;
-    }
+        String s= originalString;
+        String f  = findString;
+        String n = newString;
+        char ch[] = s.toCharArray();
+        char c[]= n.toCharArray();
+        char fc[]= f.toCharArray();
+        for ( int i= 0; i< s.length();i++)
+        {
+            if ( s.length()==0)
+                System.out.println("NO value exist");
+            else
+            {
+
+                while(ch == fc) {
+                    fc = c;
+                }
+                n = c.toString();
+           }
+
+        }
+        n = c.toString();
+        return(n);
+   }
 }
