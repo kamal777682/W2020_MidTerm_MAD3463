@@ -20,17 +20,14 @@ public class LambtonStringTools
         rev_s = s.toCharArray();
         int length = s.length();
         int i,j;
-        ArrayList<String> s1 = new ArrayList<>() ;
-        s1.add(s);
-        s.compareTo(s);
-        for(i= 0, j<length;i<length;i++,j--)
+        for(i= 0, j = length;i<length;i++,j--)
         {
-            String temp = new String;
+            String temp = new String();
             temp = s;
             String s[i]= String s[j];
             String s[j]= String s[i];
 
-        }
+
        return s;
 
     }
