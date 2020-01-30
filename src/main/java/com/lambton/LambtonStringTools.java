@@ -20,15 +20,14 @@ public class LambtonStringTools
         rev_s = s.toCharArray();
         int length = s.length();
         int i,j;
-        for(i= 0, j = length;i<length;i++,j--)
-        {
+        for(i= 0, j = length;i<length;i++,j--) {
             String temp = new String();
             temp = s;
-            String rev_s [i]= String rev_s[j];
-            String rev_s [j]= String rev_s[i];
+            rev_s[i] = rev_s[j];
+            rev_s[j] = rev_s[i];
+        }
 
-
-       return s;
+       return rev_s;
 
     }
 
@@ -76,12 +75,6 @@ public class LambtonStringTools
                 System.out.println("NO value exist");
             else {
                 s.compareTo(f);
-                if (s == f)
-               {
-                    char t = ch[];
-                    fc[]=c[];
-                    ch[]= t[];
-            }
 
         }
         n = c.toString();
