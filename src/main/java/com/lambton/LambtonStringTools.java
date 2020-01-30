@@ -73,7 +73,7 @@ public class LambtonStringTools
             if (s.length() == 0)
                 System.out.println("NO value exist");
             else
-                s.compareTo(f);
+                s.co
         }
 
         n = c.toString();
