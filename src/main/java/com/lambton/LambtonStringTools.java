@@ -26,8 +26,8 @@ public class LambtonStringTools
             rev_s[i] = rev_s[j];
             rev_s[j] = rev_s[i];
         }
-
-       return rev_s;
+        rev_s.toString();
+        return (rev_s);
 
     }
 
@@ -69,15 +69,15 @@ public class LambtonStringTools
         char ch[] = s.toCharArray();
         char c[]= n.toCharArray();
         char fc[]= f.toCharArray();
-        for ( int i= 0; i< s.length();i++)
-        {
-            if ( s.length()==0)
+        for ( int i= 0; i< s.length();i++) {
+            if (s.length() == 0)
                 System.out.println("NO value exist");
-            else {
+            else
                 s.compareTo(f);
-
         }
+
         n = c.toString();
+
         return(n);
    }
 }
