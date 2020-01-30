@@ -71,14 +71,13 @@ public class LambtonStringTools
 
          {
             if (s.length() == 0)
-               
+
             else
                 s.co
         }
 
         n = c.toString();
 
-        return(n);
    }
 }
 
