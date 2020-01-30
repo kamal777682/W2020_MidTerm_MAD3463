@@ -55,7 +55,7 @@ public class LambtonStringTools
     {
         String s1 = new String();
         s1.toCharArray();
-        System.out.println(s1);
+        System.out.println(s);
 
         return 0;
     }
