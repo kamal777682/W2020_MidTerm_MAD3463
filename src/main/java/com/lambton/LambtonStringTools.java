@@ -63,19 +63,22 @@ public class LambtonStringTools
     //5 - REPLACING SUBSTRING WITH NEW STRING IN EXISTING STRING
     public static String replaceSubString(String originalString, String findString, String newString) 
     {
-   
+        String s= originalString;
         String f  = findString;
         String n = newString;
         char ch[] = s.toCharArray();
         char c[]= n.toCharArray();
-
-         {
+       
+        for ( int i= 0; i< s.length();i++) {
             if (s.length() == 0)
-
+                System.out.println("NO value exist");
             else
-                s.co
+                s.compareTo(f);
         }
 
+        n = c.toString();
+
+        return(n);
    }
 }
 
