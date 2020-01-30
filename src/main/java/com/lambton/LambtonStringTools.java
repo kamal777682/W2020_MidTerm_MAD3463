@@ -68,8 +68,8 @@ public class LambtonStringTools
         String n = newString;
         char ch[] = s.toCharArray();
         char c[]= n.toCharArray();
-       
-        for ( int i= 0; i< s.length();i++) {
+
+         {
             if (s.length() == 0)
                 System.out.println("NO value exist");
             else
